@@ -1,6 +1,6 @@
 import React from "react";
 
-import { snsLink } from "../../../data/header";
+import { snsLink } from "../../data/header";
 
 const Sns = () => {
   return (
