@@ -8,13 +8,14 @@ import { CiFries } from "react-icons/ci";
 import { CiMoneyBill } from "react-icons/ci";
 
 import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineCodepen } from "react-icons/ai";
+// import { AiOutlineCodepen } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { SiNaver } from "react-icons/si";
 
 export const headerMenus = [
   {
-    title: "웹스토리보이",
+    title: "유튜브 홈",
     icon: <CiBaseball />,
     src: "/",
   },
@@ -114,9 +115,9 @@ export const snsLink = [
     icon: <AiFillYoutube />,
   },
   {
-    title: "codepen",
-    url: "https://codepen.io/hanjihyeong",
-    icon: <AiOutlineCodepen />,
+    title: "blog",
+    url: "https://blog.naver.com/scott_0801",
+    icon: <SiNaver />,
   },
   {
     title: "instagram",
